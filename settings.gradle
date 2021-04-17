@@ -1,2 +1,2 @@
-include ':chapter01'
+include ':chapter01_push'
 rootProject.name = "fastcampus_part3"

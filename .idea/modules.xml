@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fastcampus_part3.iml" filepath="$PROJECT_DIR$/.idea/modules/fastcampus_part3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01_push.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01_push.iml" />
     </modules>
   </component>
 </project>
