@@ -1,2 +1,3 @@
+include ':chapter02_remoteconfig'
 include ':chapter01_push'
 rootProject.name = "fastcampus_part3"

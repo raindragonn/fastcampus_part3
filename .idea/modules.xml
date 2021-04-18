@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fastcampus_part3.iml" filepath="$PROJECT_DIR$/.idea/modules/fastcampus_part3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01_push.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01_push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02_remoteconfig/fastcampus_part3.chapter02_remoteconfig.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02_remoteconfig/fastcampus_part3.chapter02_remoteconfig.iml" />
     </modules>
   </component>
 </project>
