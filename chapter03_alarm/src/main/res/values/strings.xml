@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chapter03_alarm</string>
+    <string name="btn_alarm_change">시간 재설정</string>
+    <string name="btn_alarm_on">알람 켜기</string>
+</resources>

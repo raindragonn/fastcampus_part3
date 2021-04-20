@@ -78,9 +78,6 @@ class MainActivity : AppCompatActivity() {
 
         // position 은 정적일때 0을 기준 + - 된다.
         binding.vp.setPageTransformer { page, position ->
-            Log.d(TAG, "initViews: position = $position")
-
-
             when {
                 // position 의 절댓값으로 신경 안쓰는 부분
                 position.absoluteValue >= 1.0f -> {
