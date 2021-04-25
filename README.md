@@ -54,12 +54,34 @@
 **활용 기술**
 
  - RecyclerView
+ 
+    - view를 재사용해서 리소스 사용에 이점이 있는 리스트 형식의 뷰
+
+    - layoutmanager 를 통해 view가 나오는 형식을 지정할 수 있으며,
+
+    - adapter를 통해 view와 데이터를 결합해서 사용할 수 있다.
 
  - viewBinding
 
+    - layout(xml파일)을 바인딩 해주는 클래스를 제공한다.
+
+    - findViewById, kotlin-android-extension보다 viewBinding을 권장합니다.
+    
+      - ex)activity_main.xml -> ActivityMainBinding
+
  - Retrofit
 
+    - HttpClient 라이브러리
+    
+    - 쉽게 rest api를 이용할 수 있다.
+    
  - Glide
 
+    - 이미지 로딩 라이브러리
+
  - Room
+
+    - jetpack에서 제공하는 내부 db
+
+    - sqlite를 편하게 쓰기위한 래핑된 클래스라고 생각 하면 된다.
 
