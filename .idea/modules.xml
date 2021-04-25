@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01_push.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fastcampus_part3.chapter01_push.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter02_remoteconfig/fastcampus_part3.chapter02_remoteconfig.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter02_remoteconfig/fastcampus_part3.chapter02_remoteconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter03_alarm/fastcampus_part3.chapter03_alarm.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter03_alarm/fastcampus_part3.chapter03_alarm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter04_bookreview/fastcampus_part3.chapter04_bookreview.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter04_bookreview/fastcampus_part3.chapter04_bookreview.iml" />
     </modules>
   </component>
 </project>

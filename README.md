@@ -47,3 +47,19 @@
 
  - `Broadcast receiver`
 
+## chapter04_book review
+
+ > open Api를 통해 도서 정보를 가져와 보여주며 검색 및 개인 리뷰를 저장할 수 있다.
+
+**활용 기술**
+
+ - RecyclerView
+
+ - viewBinding
+
+ - Retrofit
+
+ - Glide
+
+ - Room
+

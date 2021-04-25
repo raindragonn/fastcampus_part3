@@ -1,6 +1,6 @@
-package com.raindragon.chapter03_alarm
+package com.raindragon.chapter04_bookreview
 
-import junit.framework.Assert.assertEquals
+import org.junit.Assert.assertEquals
 import org.junit.Test
 
 /**
