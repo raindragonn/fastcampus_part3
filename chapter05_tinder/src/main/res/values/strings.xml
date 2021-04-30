@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">chapter05_tinder</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_sign_in">회원가입</string>
+    <string name="write_name">이름을 입력해주세요.</string>
+    <string name="save">저장</string>
+    <string name="not_login">로그인이 되어있지 않습니다.</string>
+</resources>

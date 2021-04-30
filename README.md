@@ -53,7 +53,7 @@
 
 **활용 기술**
 
- - RecyclerView
+ - `RecyclerView`
  
     - view를 재사용해서 리소스 사용에 이점이 있는 리스트 형식의 뷰
 
@@ -61,7 +61,7 @@
 
     - adapter를 통해 view와 데이터를 결합해서 사용할 수 있다.
 
- - viewBinding
+ - `viewBinding`
 
     - layout(xml파일)을 바인딩 해주는 클래스를 제공한다.
 
@@ -69,19 +69,37 @@
     
       - ex)activity_main.xml -> ActivityMainBinding
 
- - Retrofit
+ - `Retrofit`
 
     - HttpClient 라이브러리
     
     - 쉽게 rest api를 이용할 수 있다.
     
- - Glide
+ - `Glide`
 
     - 이미지 로딩 라이브러리
 
- - Room
+ - `Room`
 
     - jetpack에서 제공하는 내부 db
 
     - sqlite를 편하게 쓰기위한 래핑된 클래스라고 생각 하면 된다.
 
+
+
+## chapter05_tinder
+
+ > Firebase Authentication 을 통해 이메일 로그인과 페이스북 로그인을 활용<br>
+ FirebaseRealtime Database를 이용하여 기록 저장 및 불러오기
+
+
+**활용 기술**
+
+ - `Firebase Authentication`
+
+   - sns Login, email 등 을 사용해 유저 인증에 사용된다.
+  
+
+ - `Firebase Realtime Database`
+
+   - 실시간으로 연동하는 데이터베이스 데이터가 바뀔때 리스너를 통해 실시간으로 처리할 수 있다.

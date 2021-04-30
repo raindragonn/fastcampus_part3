@@ -1,6 +1,5 @@
 package com.raindragon.chapter04_bookreview
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.KeyEvent
@@ -8,7 +7,6 @@ import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.room.Room
 import com.raindragon.chapter04_bookreview.adapter.BookAdapter
 import com.raindragon.chapter04_bookreview.adapter.HistoryAdapter
 import com.raindragon.chapter04_bookreview.databinding.ActivityMainBinding
@@ -59,9 +57,9 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun initViews() {
-        bookAdapter = BookAdapter{
-            startActivity(Intent(this,DetailActivity::class.java).apply {
-                putExtra("book",it)
+        bookAdapter = BookAdapter {
+            startActivity(Intent(this, DetailActivity::class.java).apply {
+                putExtra("book", it)
             })
         }
         historyAdapter = HistoryAdapter {

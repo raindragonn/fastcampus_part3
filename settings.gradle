@@ -1,3 +1,4 @@
+include ':chapter05_tinder'
 include ':chapter04_bookreview'
 include ':chapter03_alarm'
 include ':chapter02_remoteconfig'
