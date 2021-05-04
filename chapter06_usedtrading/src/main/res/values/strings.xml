@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">chapter06_usedtrading</string>
+    <string name="app_title">중고 거래</string>
+    <string name="home">홈</string>
+    <string name="chatting">채팅</string>
+    <string name="myPage">마이페이지</string>
+    <string name="article_add">아이템 등록</string>
+    <string name="submit">등록하기</string>
+    <string name="hint_title">글 제목</string>
+    <string name="hint_price">가격</string>
+    <string name="image_upload">이미지 등록하기</string>
+    <string name="sign_up">회원가입</string>
+    <string name="sign_in">로그인</string>
+</resources>

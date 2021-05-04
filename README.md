@@ -103,3 +103,37 @@
  - `Firebase Realtime Database`
 
    - 실시간으로 연동하는 데이터베이스 데이터가 바뀔때 리스너를 통해 실시간으로 처리할 수 있다.
+
+
+## chapter06_중고거래 앱
+
+ > Firebase Authentication을 통해 로그인 회원가입 기능으로
+ 회원기반 중고거래 앱 이며 Firebase Storage를 통해 사진 업로드를 할 수 있습니다.
+
+**활용 기술**
+
+ - `RecyclerView`
+
+ - `View Binding`
+
+ - `Fragment`
+
+   - 앱의 UI중 독립적인 수명주기를 가진 레이아웃을 말합니다.
+
+   - Activity안에 여려화면을 보여주기 위해 사용됩니다.
+
+   - UI의 모듈성이 커져 재사용성이 증가합니다.
+
+ - `BottmNavigationView`
+
+   - 하단 탭 구조, 네비게이션 역을 하는 각각의 버튼을 통해 프래그먼트들을 컨트롤 할 수 있다.
+
+ - `Firebase Storage`
+
+   - 저장소로써 파일을 업로드하고 접근이 가능하다.
+
+ - `Firebase Realtime Database`
+
+   - 데이터를 커스텀 모델 클래스형태로 받으려면 해당 클래스에는 빈 생성자가 필요합니다.
+
+ - `Firebase Authentication`
