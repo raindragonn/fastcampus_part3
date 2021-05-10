@@ -33,6 +33,8 @@
   
     - recyclerView 를 기반으로 되어있다.
 
+    - 사용되는 아이템 레이아웃의 루트 height는 match를 사용해야 한다.
+
 ## chapter03_Alarm
 
 > 지정된 시간에 알람이 울리게 할 수 있다.
@@ -137,3 +139,44 @@
    - 데이터를 커스텀 모델 클래스형태로 받으려면 해당 클래스에는 빈 생성자가 필요합니다.
 
  - `Firebase Authentication`
+
+
+## chapter07_airbnb
+
+ > Naver Map Api를 이용해 지도를띄우고 Mock Api 에서 예약가능 숙소목록을 받아와 활용할 수 있습니다.
+
+ [api 가이드](https://navermaps.github.io/android-map-sdk/guide-ko/)
+
+**활용 기술**
+
+ - `ViewPager2`
+
+ - `CoordinaterLayout`
+
+    - FrameLayout의 확장 개념 (FrameLayout의 경우 본래 여러 뷰를 겹칠수 있지만 하나만 사용하기를 권장합니다.)
+    
+    - 자식 뷰들간의 인터렉션을 위한 컨테이너로 사용.
+
+ - `BottomSheetBehavior`
+  
+    - 슬라이딩 드로어나 스와이프 해제액션 등 뷰의 다양한 움직임이나 애니메이션에 따른 상호작용을 구현하기 위해 사용된다.
+
+    - 기본적으로 제공되는 Behavior
+
+      -  BottomSheetBehavior : Bottom Sheet처럼 동작하도록 지원하는 Behavior
+      
+      - FloatActionButton.Behavior
+      
+      - SwipeDismissBehavior : swipe-to-dismiss제스쳐를 지원하는 Behavior
+        - BaseTransientBottomBar.Behavior
+      - ViewOffsetBehavior : 뷰들의 offset을 지정
+        - HeaderScrollingViewBehavior : 수직으로 된 레이아웃에서 다른 뷰 아래에 있으면서 스크롤되는 뷰를 위한 Behavior
+          - AppBarLayout.ScrollingViewBehavior
+      - HeaderBehavior : 수직으로 스크롤되는 뷰 위에 놓이는 뷰를 위한 Behavior
+        - AppBarLayout.Behavior
+
+ - `retrofit`
+
+ - `Glide`
+
+[CoordinatorLayout, Behavior참고](http://dktfrmaster.blogspot.com/2018/03/coordinatorlayout.html)

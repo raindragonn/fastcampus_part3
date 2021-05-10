@@ -67,3 +67,6 @@ fastlane/test_output
 fastlane/readme.md
 chapter04_bookreview/src/main/res/values/api_key.xml
 chapter04_bookreview/src/main/res/values/api_key.xml
+chapter07_airbnb/src/main/res/values/api-keys.xml
+chapter07_airbnb/src/main/res/values/api-keys.xml
+chapter07_airbnb/src/main/res/values/api-keys.xml
